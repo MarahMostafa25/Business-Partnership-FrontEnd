@@ -1,0 +1,12 @@
+.background_icon{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  
+  .background_icon:hover img {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba((112, 109, 109, 0.1), 0.1);
+  }
+  

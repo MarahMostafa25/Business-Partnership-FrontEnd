@@ -31,35 +31,6 @@
     background: #BBAB8C;
     border-radius: 9px;
 }
-.inputs{
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    gap:15px;
-
-}
-.input{
-    display: flex;
-    align-items: center;
-    margin: auto;
-    width: 400px;
-    height: 60px;
-    background: #eaeaea;
-    border-radius: 10px;
-
-}
-.input img{
-    margin: 0px 30px;
-}
-.input input {
-    height: 50px;
-    width: 400px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    color: #797979;
-    font-size: 19px;
-}
 .forgot-password{
     padding-left: 62px;
     margin-top: 27px;
@@ -68,6 +39,16 @@
 
 }
 .forgot-password span{
+    color: #BBAB8C;
+    cursor: pointer;
+}
+.Dont-have-an-account{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.Dont-have-an-account span{
     color: #BBAB8C;
     cursor: pointer;
 }
@@ -94,16 +75,3 @@
     color:#676767;
 }
 
-
-.background_icon{
-    position: relative;
-    overflow: hidden;
-    border-radius: 8px;
-  }
-  
-  
-  .background_icon:hover img {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba((112, 109, 109, 0.1), 0.1);
-  }
-  
